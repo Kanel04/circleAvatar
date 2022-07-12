@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.circle{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    margin: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    left: 80vh;
+    overflow: hidden;
+
+
+    transition-duration: .5s;
+
+}
+img{
+    width: 250px;
+    height: auto;
+    background-color: grey;
+    
+}
+.circle:hover{
+    transform: scale(1.1);
+}
